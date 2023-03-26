@@ -3,8 +3,8 @@
 A command to query all DNS records for a (sub)domain.
 
 ## Requirements
-- Python >= 3.7 and `pip`
-    - Install via Homebrew: `$ brew install python`
+- Python >= 3.7, `pip`, and `setuptools`
+    - Install at once via Homebrew: `$ brew install python` (macOS)
 
 ## Installation
 ```
