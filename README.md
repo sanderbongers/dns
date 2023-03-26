@@ -7,9 +7,7 @@ A command to query all DNS records for a (sub)domain.
 
 ## Installation
 ```
-$ mkdir -p /usr/local/bin/dns && cd /usr/local/bin/dns
-$ git clone git@github.com:sanderbongers/dns.git
-$ echo -n 'export PATH="/usr/local/bin/dns/bin:$PATH"' >> ~/.zshrc  # or ~/.bashrc
+$ pip install git+https://github.com/sanderbongers/dns.git
 ```
 
 ## Usage
