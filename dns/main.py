@@ -1,7 +1,8 @@
+#!/usr/bin/env python
+
 import argparse
 import sys
 from .dns import dns
-
 
 def main():
     parser = argparse.ArgumentParser(description='dns records lookup')
