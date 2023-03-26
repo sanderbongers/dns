@@ -16,6 +16,6 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     entry_points={
-        'console_scripts': ['dns=dns.dns:main'],
+        'console_scripts': ['dns=dns.main:main'],
     },
 )
