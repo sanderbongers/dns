@@ -1,8 +1,7 @@
 import subprocess
 from urllib.parse import urlparse
 
-
-def dns(domain: str) -> None:
+def query_and_print_all(domain: str) -> None:
     if not domain.startswith('http'):
         domain = 'https://' + domain
 

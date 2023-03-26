@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='dns',
-    version='0.1.1',
+    version='0.1.2',
     description='A command to query all DNS records for a (sub)domain.',
     author='Sander Bongers',
     author_email='sander@bonge.rs',
@@ -16,7 +16,7 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     entry_points={
-        'console_scripts': ['dns=dns.main:main'],
+        'console_scripts': ['dns=bin.dns:dns'],
     },
 )
  
