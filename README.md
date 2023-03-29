@@ -25,4 +25,3 @@ w3.org.			3600	IN	MX	50 bart.w3.org.
 w3.org.			3600	IN	MX	10 titan.w3.org.
 w3.org.			3600	IN	TXT	"v=spf1 a mx ip4:128.30.52.0/22 ip4:203.178.154.0/25 ip4:193.51.208.64/27 include:spf6.w3.org include:_spf.google.com include:spf.braintreegateway.com
 ```
-
