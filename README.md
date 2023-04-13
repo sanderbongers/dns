@@ -13,15 +13,14 @@ $ pip install git+https://github.com/sanderbongers/dns.git
 
 ## Usage
 ```
-$ dns w3.org
-w3.org.			3323	IN	A	104.18.23.19
-w3.org.			3600	IN	AAAA	2606:4700::6812:1713
-w3.org.			3323	IN	NS	ns2.w3.org.
-w3.org.			3323	IN	NS	ns1.w3.org.
-w3.org.			3323	IN	NS	ns3.w3.org.
-w3.org.			3600	IN	SOA	ns1.w3.org. hostmaster.w3.org. 2023022201 28800 3600 604800 1800
-w3.org.			3600	IN	MX	10 mimas.w3.org.
-w3.org.			3600	IN	MX	50 bart.w3.org.
-w3.org.			3600	IN	MX	10 titan.w3.org.
-w3.org.			3600	IN	TXT	"v=spf1 a mx ip4:128.30.52.0/22 ip4:203.178.154.0/25 ip4:193.51.208.64/27 include:spf6.w3.org include:_spf.google.com include:spf.braintreegateway.com
+$ dns bonge.rs
+bonge.rs.		1138	IN	A	    37.97.229.40
+bonge.rs.		3350	IN	AAAA	2a01:7c8:fffd:40:5054:ff:fed7:8e0c
+bonge.rs.		3600	IN	NS	    ns01.bonge.rs.
+bonge.rs.		3600	IN	SOA	    bonge.rs. sander.bonge.rs. 2023041401 10800 3600 604800 3600
+bonge.rs.		3600	IN	MX	    10 mx01.mail.icloud.com.
+bonge.rs.		3600	IN	MX	    10 mx02.mail.icloud.com.
+bonge.rs.		3600	IN	TXT	    "apple-domain=rBm4PHrden4V12Zm"
+bonge.rs.		3600	IN	TXT	    "v=spf1 a mx include:icloud.com ~all"
+bonge.rs.		3350	IN	DNSKEY	257 3 13 4eD1EdQy6fN+zo/94UMfBgD6X2Kf7mzSoU0fRSYt6X9kLbR+rt7vnRUg kI+hLe1ecyrML95YcnmVu5xsQ920hw==
 ```
